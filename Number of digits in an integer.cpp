@@ -1,14 +1,12 @@
 #include <stdio.h>
 int main() {
-    long n = 35294;
+    long n = 35;
     int count = 0;
-    int i;
-	do
-	{   
-		n = n/10;
-		count++;
-		
-	}while(i < n);
+    while(n!=0)
+    {
+        n=n/10;
+        count ++;
+    }
 	
 	printf("The digit consists with %d integers",count);
 }
